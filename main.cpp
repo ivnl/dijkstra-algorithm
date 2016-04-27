@@ -21,33 +21,55 @@ public:
 
     DijkstraSSS(ifstream& data) {
 
-        //rotate through all source nodes
-
         data>>numNodes; //store first int
-        cout<<numNodes;
+        cout<<"Number of Nodes: "<<numNodes;
 
         int temp = 0;
         loadCostMatrix(data);
 
-        sourceNode = 1;
+        sourceNode = 1;  //rotate through all source nodes
         loadBestCostAry(sourceNode);
+        loadMarkedAry();
 
+        //step 2 iterate through nodes here
+        loadBestCostAry(sourceNode);
+        loadFatherAry(sourceNode);
+        loadMarkedAry();
+
+        //find an unmarked node with min cost from bestcostary and store to minnode
+        //markMinNode(minNode)
+        cout<<endl<<endl<<"Father Array:";
+        printAry(fatherAry);
+        cout<<endl<<endl<<"Marked Array:";
+        printAry(markedAry);
+        cout<<endl<<endl<<"Best Cost Array:";
+        printAry(bestCostAry);
+
+        for(int i=0;i<numNodes;i++) {
+
+        }
 
     }
 
     //Print out cost matrix for debugging
     void testPrint() {
-        int count = 1;
-        cout<<endl<<endl;
-        cout<<"      1    2    3    4    5    6    7    8";
+        cout<<endl<<endl<<"      1    2    3    4    5    6    7    8";
         for(int i=0; i<numNodes; i++) {
-            cout<<endl<<endl;
-            cout<<i+1<<"  ";
+            cout<<endl<<endl<<i+1<<"  ";
             for(int k=0; k<numNodes; k++) {
                 cout<<setw(4)<<costMatrix[i][k]<<" ";
             }
         }
         cout<<endl<<endl;
+    }
+
+    void printAry(int ary[]) {
+        cout<<endl;
+        for(int i=0;i<numNodes;i++) {
+
+            cout<<ary[i]<<" ";
+
+        }
     }
 
     void loadCostMatrix(ifstream& data) {
@@ -76,8 +98,6 @@ public:
             data>>row;
             data>>col;
             data>>cost;
-
-            cout<<"\nrow "<<row<<" col "<<col<<" cost "<<cost;
             costMatrix[row-1][col-1] = cost;
 
         }
@@ -88,7 +108,7 @@ public:
         bestCostAry= new int[numNodes];
 
             for(int k=0;k<numNodes;k++) {
-                bestCostAry[k] = costMatrix[sourceNode][k];
+                bestCostAry[k] = costMatrix[sourceNode-1][k];
             }
 
         }
@@ -165,11 +185,11 @@ int main(int argc, char *argv[]) {
     out_data2.open(argv[3]);
 
     DijkstraSSS dij(in_data1);
-    dij.testPrint();
+    //dij.testPrint();
 
 
 
-    cout << "\nHello, World!" << endl;
+    cout << "\n\nHello, World!" << endl;
     return 0;
 
 };
