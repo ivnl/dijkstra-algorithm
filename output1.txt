@@ -1,0 +1,72 @@
+Shortest Path from 1 to 1:   1 <-- 1 |COST: 0|
+Shortest Path from 1 to 2:   2 <-- 3 <-- 1 |COST: 7|
+Shortest Path from 1 to 3:   3 <-- 1 |COST: 5|
+Shortest Path from 1 to 4:   4 <-- 3 <-- 1 |COST: 10|
+Shortest Path from 1 to 5:   5 <-- 4 <-- 3 <-- 1 |COST: 15|
+Shortest Path from 1 to 6:   6 <-- 4 <-- 3 <-- 1 |COST: 13|
+Shortest Path from 1 to 7:   7 <-- 8 <-- 2 <-- 3 <-- 1 |COST: 11|
+Shortest Path from 1 to 8:   8 <-- 2 <-- 3 <-- 1 |COST: 9|
+
+Shortest Path from 2 to 1:   1 <-- 8 <-- 2 |COST: 8|
+Shortest Path from 2 to 2:   2 <-- 2 |COST: 0|
+Shortest Path from 2 to 3:   3 <-- 1 <-- 8 <-- 2 |COST: 13|
+Shortest Path from 2 to 4:   4 <-- 7 <-- 8 <-- 2 |COST: 8|
+Shortest Path from 2 to 5:   5 <-- 4 <-- 7 <-- 8 <-- 2 |COST: 13|
+Shortest Path from 2 to 6:   6 <-- 7 <-- 8 <-- 2 |COST: 7|
+Shortest Path from 2 to 7:   7 <-- 8 <-- 2 |COST: 4|
+Shortest Path from 2 to 8:   8 <-- 2 |COST: 2|
+
+Shortest Path from 3 to 1:   1 <-- 8 <-- 2 <-- 3 |COST: 10|
+Shortest Path from 3 to 2:   2 <-- 3 |COST: 2|
+Shortest Path from 3 to 3:   3 <-- 3 |COST: 0|
+Shortest Path from 3 to 4:   4 <-- 3 |COST: 5|
+Shortest Path from 3 to 5:   5 <-- 4 <-- 3 |COST: 10|
+Shortest Path from 3 to 6:   6 <-- 4 <-- 3 |COST: 8|
+Shortest Path from 3 to 7:   7 <-- 8 <-- 2 <-- 3 |COST: 6|
+Shortest Path from 3 to 8:   8 <-- 2 <-- 3 |COST: 4|
+
+Shortest Path from 4 to 1:   1 <-- 6 <-- 4 |COST: 8|
+Shortest Path from 4 to 2:   2 <-- 3 <-- 1 <-- 6 <-- 4 |COST: 15|
+Shortest Path from 4 to 3:   3 <-- 1 <-- 6 <-- 4 |COST: 13|
+Shortest Path from 4 to 4:   4 <-- 4 |COST: 0|
+Shortest Path from 4 to 5:   5 <-- 4 |COST: 5|
+Shortest Path from 4 to 6:   6 <-- 4 |COST: 3|
+Shortest Path from 4 to 7:   7 <-- 6 <-- 4 |COST: 5|
+Shortest Path from 4 to 8:   8 <-- 2 <-- 3 <-- 1 <-- 6 <-- 4 |COST: 17|
+
+Shortest Path from 5 to 1:   1 <-- 6 <-- 5 |COST: 20|
+Shortest Path from 5 to 2:   2 <-- 3 <-- 1 <-- 6 <-- 5 |COST: 27|
+Shortest Path from 5 to 3:   3 <-- 1 <-- 6 <-- 5 |COST: 25|
+Shortest Path from 5 to 4:   4 <-- 7 <-- 6 <-- 5 |COST: 21|
+Shortest Path from 5 to 5:   5 <-- 5 |COST: 0|
+Shortest Path from 5 to 6:   6 <-- 5 |COST: 15|
+Shortest Path from 5 to 7:   7 <-- 6 <-- 5 |COST: 17|
+Shortest Path from 5 to 8:   8 <-- 2 <-- 3 <-- 1 <-- 6 <-- 5 |COST: 29|
+
+Shortest Path from 6 to 1:   1 <-- 6 |COST: 5|
+Shortest Path from 6 to 2:   2 <-- 3 <-- 1 <-- 6 |COST: 12|
+Shortest Path from 6 to 3:   3 <-- 1 <-- 6 |COST: 10|
+Shortest Path from 6 to 4:   4 <-- 7 <-- 6 |COST: 6|
+Shortest Path from 6 to 5:   5 <-- 4 <-- 7 <-- 6 |COST: 11|
+Shortest Path from 6 to 6:   6 <-- 6 |COST: 0|
+Shortest Path from 6 to 7:   7 <-- 6 |COST: 2|
+Shortest Path from 6 to 8:   8 <-- 2 <-- 3 <-- 1 <-- 6 |COST: 14|
+
+Shortest Path from 7 to 1:   1 <-- 6 <-- 7 |COST: 8|
+Shortest Path from 7 to 2:   2 <-- 3 <-- 1 <-- 6 <-- 7 |COST: 15|
+Shortest Path from 7 to 3:   3 <-- 1 <-- 6 <-- 7 |COST: 13|
+Shortest Path from 7 to 4:   4 <-- 7 |COST: 4|
+Shortest Path from 7 to 5:   5 <-- 4 <-- 7 |COST: 9|
+Shortest Path from 7 to 6:   6 <-- 7 |COST: 3|
+Shortest Path from 7 to 7:   7 <-- 7 |COST: 0|
+Shortest Path from 7 to 8:   8 <-- 2 <-- 3 <-- 1 <-- 6 <-- 7 |COST: 17|
+
+Shortest Path from 8 to 1:   1 <-- 8 |COST: 6|
+Shortest Path from 8 to 2:   2 <-- 3 <-- 1 <-- 8 |COST: 13|
+Shortest Path from 8 to 3:   3 <-- 1 <-- 8 |COST: 11|
+Shortest Path from 8 to 4:   4 <-- 7 <-- 8 |COST: 6|
+Shortest Path from 8 to 5:   5 <-- 4 <-- 7 <-- 8 |COST: 11|
+Shortest Path from 8 to 6:   6 <-- 7 <-- 8 |COST: 5|
+Shortest Path from 8 to 7:   7 <-- 8 |COST: 2|
+Shortest Path from 8 to 8:   8 <-- 8 |COST: 0|
+
