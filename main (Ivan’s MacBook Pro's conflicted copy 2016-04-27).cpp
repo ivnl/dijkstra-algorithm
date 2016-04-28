@@ -36,6 +36,8 @@ public:
 
         debugPrint();
 
+
+
         markMinNode(sourceNode-1);
 
         while(!allMarked()) {
@@ -58,22 +60,11 @@ public:
             }
         }
 
+        cout<<endl<<endl<<currentNode;
 
     }
 
     //Print out cost matrix for debugging
-
-    // trace from currentNode back to sourceNode (via fatherAry),
-    // and print the shortest path from sourceNode to currentNode  with the cost to output-1 (with proper heading)
-
-    void printShortestPath(int sourceNode) {
-
-      //  while()
-     //   cout<<
-
-
-    }
-
 
     bool allMarked(){
         for(int i = 0; i<numNodes; i++){
@@ -93,7 +84,9 @@ public:
             }
 
         }
+
         return minIndex;
+
     }
     void debugPrint() {
 
