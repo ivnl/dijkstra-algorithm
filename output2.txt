@@ -1,0 +1,620 @@
+sourceNode is: 1
+Father Array: 0 0 0 0 0 0 0 0 
+Best Cost Array: 0 10 5 20 30 9999 9999 9999 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 0 0 0 0 0 0 0 
+Best Cost Array: 0 10 5 20 30 9999 9999 9999 
+Marked Array: 1 0 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 0 0 0 0 0 
+Best Cost Array: 0 7 5 20 30 9999 9999 9999 
+Marked Array: 1 0 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 0 0 0 
+Best Cost Array: 0 7 5 10 30 9999 9999 9999 
+Marked Array: 1 0 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 0 2 0 
+Best Cost Array: 0 7 5 10 30 9999 35 9999 
+Marked Array: 1 0 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 0 2 2 
+Best Cost Array: 0 7 5 10 30 9999 35 15 
+Marked Array: 1 0 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 0 2 2 
+Best Cost Array: 0 7 5 10 30 9999 35 15 
+Marked Array: 1 1 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 0 2 1 
+Best Cost Array: 0 7 5 10 30 9999 35 9 
+Marked Array: 1 1 1 0 0 0 0 0 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 0 2 1 
+Best Cost Array: 0 7 5 10 30 9999 35 9 
+Marked Array: 1 1 1 0 0 0 0 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 7 2 1 
+Best Cost Array: 0 7 5 10 30 16 35 9 
+Marked Array: 1 1 1 0 0 0 0 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 7 7 1 
+Best Cost Array: 0 7 5 10 30 16 11 9 
+Marked Array: 1 1 1 0 0 0 0 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 0 7 7 1 
+Best Cost Array: 0 7 5 10 30 16 11 9 
+Marked Array: 1 1 1 1 0 0 0 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 3 7 7 1 
+Best Cost Array: 0 7 5 10 15 16 11 9 
+Marked Array: 1 1 1 1 0 0 0 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 3 3 7 1 
+Best Cost Array: 0 7 5 10 15 13 11 9 
+Marked Array: 1 1 1 1 0 0 0 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 3 3 7 1 
+Best Cost Array: 0 7 5 10 15 13 11 9 
+Marked Array: 1 1 1 1 0 0 1 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 3 3 7 1 
+Best Cost Array: 0 7 5 10 15 13 11 9 
+Marked Array: 1 1 1 1 0 1 1 1 
+
+sourceNode is: 1
+Father Array: 0 2 0 2 3 3 7 1 
+Best Cost Array: 0 7 5 10 15 13 11 9 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 2
+Father Array: 1 1 1 1 1 1 1 1 
+Best Cost Array: 9999 0 9999 9999 9999 9999 9999 2 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 2
+Father Array: 1 1 1 1 1 1 1 1 
+Best Cost Array: 9999 0 9999 9999 9999 9999 9999 2 
+Marked Array: 0 1 0 0 0 0 0 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 1 1 1 1 1 
+Best Cost Array: 8 0 9999 9999 9999 9999 9999 2 
+Marked Array: 0 1 0 0 0 0 0 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 1 1 7 1 1 
+Best Cost Array: 8 0 9999 9999 9999 9 9999 2 
+Marked Array: 0 1 0 0 0 0 0 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 1 1 7 7 1 
+Best Cost Array: 8 0 9999 9999 9999 9 4 2 
+Marked Array: 0 1 0 0 0 0 0 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 1 1 7 7 1 
+Best Cost Array: 8 0 9999 9999 9999 9 4 2 
+Marked Array: 0 1 0 0 0 0 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 6 1 7 7 1 
+Best Cost Array: 8 0 9999 8 9999 9 4 2 
+Marked Array: 0 1 0 0 0 0 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 6 1 6 7 1 
+Best Cost Array: 8 0 9999 8 9999 7 4 2 
+Marked Array: 0 1 0 0 0 0 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 6 1 6 7 1 
+Best Cost Array: 8 0 9999 8 9999 7 4 2 
+Marked Array: 0 1 0 0 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 6 1 6 7 1 
+Best Cost Array: 8 0 9999 8 9999 7 4 2 
+Marked Array: 1 1 0 0 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 1 6 0 6 7 1 
+Best Cost Array: 8 0 9999 8 38 7 4 2 
+Marked Array: 1 1 0 0 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 0 6 0 6 7 1 
+Best Cost Array: 8 0 13 8 38 7 4 2 
+Marked Array: 1 1 0 0 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 0 6 0 6 7 1 
+Best Cost Array: 8 0 13 8 38 7 4 2 
+Marked Array: 1 1 0 1 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 0 6 3 6 7 1 
+Best Cost Array: 8 0 13 8 13 7 4 2 
+Marked Array: 1 1 0 1 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 0 6 3 6 7 1 
+Best Cost Array: 8 0 13 8 13 7 4 2 
+Marked Array: 1 1 1 1 0 1 1 1 
+
+sourceNode is: 2
+Father Array: 7 1 0 6 3 6 7 1 
+Best Cost Array: 8 0 13 8 13 7 4 2 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 3
+Father Array: 2 2 2 2 2 2 2 2 
+Best Cost Array: 9999 2 0 5 9999 9999 30 10 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 3
+Father Array: 2 2 2 2 2 2 2 2 
+Best Cost Array: 9999 2 0 5 9999 9999 30 10 
+Marked Array: 0 1 1 0 0 0 0 0 
+
+sourceNode is: 3
+Father Array: 2 2 2 2 2 2 2 1 
+Best Cost Array: 9999 2 0 5 9999 9999 30 4 
+Marked Array: 0 1 1 0 0 0 0 0 
+
+sourceNode is: 3
+Father Array: 2 2 2 2 2 2 2 1 
+Best Cost Array: 9999 2 0 5 9999 9999 30 4 
+Marked Array: 0 1 1 0 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 2 2 2 1 
+Best Cost Array: 10 2 0 5 9999 9999 30 4 
+Marked Array: 0 1 1 0 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 2 7 2 1 
+Best Cost Array: 10 2 0 5 9999 11 30 4 
+Marked Array: 0 1 1 0 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 2 7 7 1 
+Best Cost Array: 10 2 0 5 9999 11 6 4 
+Marked Array: 0 1 1 0 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 2 7 7 1 
+Best Cost Array: 10 2 0 5 9999 11 6 4 
+Marked Array: 0 1 1 1 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 3 7 7 1 
+Best Cost Array: 10 2 0 5 10 11 6 4 
+Marked Array: 0 1 1 1 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 3 3 7 1 
+Best Cost Array: 10 2 0 5 10 8 6 4 
+Marked Array: 0 1 1 1 0 0 0 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 3 3 7 1 
+Best Cost Array: 10 2 0 5 10 8 6 4 
+Marked Array: 0 1 1 1 0 0 1 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 3 3 7 1 
+Best Cost Array: 10 2 0 5 10 8 6 4 
+Marked Array: 0 1 1 1 0 1 1 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 3 3 7 1 
+Best Cost Array: 10 2 0 5 10 8 6 4 
+Marked Array: 1 1 1 1 0 1 1 1 
+
+sourceNode is: 3
+Father Array: 7 2 2 2 3 3 7 1 
+Best Cost Array: 10 2 0 5 10 8 6 4 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 4
+Father Array: 3 3 3 3 3 3 3 3 
+Best Cost Array: 9999 9999 9999 0 5 3 9999 9999 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 4
+Father Array: 3 3 3 3 3 3 3 3 
+Best Cost Array: 9999 9999 9999 0 5 3 9999 9999 
+Marked Array: 0 0 0 1 0 1 0 0 
+
+sourceNode is: 4
+Father Array: 5 3 3 3 3 3 3 3 
+Best Cost Array: 8 9999 9999 0 5 3 9999 9999 
+Marked Array: 0 0 0 1 0 1 0 0 
+
+sourceNode is: 4
+Father Array: 5 3 3 3 3 3 5 3 
+Best Cost Array: 8 9999 9999 0 5 3 5 9999 
+Marked Array: 0 0 0 1 0 1 0 0 
+
+sourceNode is: 4
+Father Array: 5 3 3 3 3 3 5 3 
+Best Cost Array: 8 9999 9999 0 5 3 5 9999 
+Marked Array: 0 0 0 1 1 1 0 0 
+
+sourceNode is: 4
+Father Array: 5 3 3 3 3 3 5 3 
+Best Cost Array: 8 9999 9999 0 5 3 5 9999 
+Marked Array: 0 0 0 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 3 3 3 3 3 5 3 
+Best Cost Array: 8 9999 9999 0 5 3 5 9999 
+Marked Array: 1 0 0 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 0 3 3 3 3 5 3 
+Best Cost Array: 8 18 9999 0 5 3 5 9999 
+Marked Array: 1 0 0 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 0 0 3 3 3 5 3 
+Best Cost Array: 8 18 13 0 5 3 5 9999 
+Marked Array: 1 0 0 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 0 0 3 3 3 5 3 
+Best Cost Array: 8 18 13 0 5 3 5 9999 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 0 0 3 3 3 5 2 
+Best Cost Array: 8 18 13 0 5 3 5 23 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 2 0 3 3 3 5 2 
+Best Cost Array: 8 15 13 0 5 3 5 23 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 2 0 3 3 3 5 2 
+Best Cost Array: 8 15 13 0 5 3 5 23 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 2 0 3 3 3 5 1 
+Best Cost Array: 8 15 13 0 5 3 5 17 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 4
+Father Array: 5 2 0 3 3 3 5 1 
+Best Cost Array: 8 15 13 0 5 3 5 17 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 5
+Father Array: 4 4 4 4 4 4 4 4 
+Best Cost Array: 9999 9999 9999 9999 0 15 9999 9999 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 5
+Father Array: 4 4 4 4 4 4 4 4 
+Best Cost Array: 9999 9999 9999 9999 0 15 9999 9999 
+Marked Array: 0 0 0 0 1 1 0 0 
+
+sourceNode is: 5
+Father Array: 5 4 4 4 4 4 4 4 
+Best Cost Array: 20 9999 9999 9999 0 15 9999 9999 
+Marked Array: 0 0 0 0 1 1 0 0 
+
+sourceNode is: 5
+Father Array: 5 4 4 4 4 4 5 4 
+Best Cost Array: 20 9999 9999 9999 0 15 17 9999 
+Marked Array: 0 0 0 0 1 1 0 0 
+
+sourceNode is: 5
+Father Array: 5 4 4 4 4 4 5 4 
+Best Cost Array: 20 9999 9999 9999 0 15 17 9999 
+Marked Array: 0 0 0 0 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 4 4 6 4 4 5 4 
+Best Cost Array: 20 9999 9999 21 0 15 17 9999 
+Marked Array: 0 0 0 0 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 4 4 6 4 4 5 4 
+Best Cost Array: 20 9999 9999 21 0 15 17 9999 
+Marked Array: 1 0 0 0 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 0 4 6 4 4 5 4 
+Best Cost Array: 20 30 9999 21 0 15 17 9999 
+Marked Array: 1 0 0 0 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 0 0 6 4 4 5 4 
+Best Cost Array: 20 30 25 21 0 15 17 9999 
+Marked Array: 1 0 0 0 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 0 0 6 4 4 5 4 
+Best Cost Array: 20 30 25 21 0 15 17 9999 
+Marked Array: 1 0 0 1 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 0 0 6 4 4 5 4 
+Best Cost Array: 20 30 25 21 0 15 17 9999 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 0 0 6 4 4 5 2 
+Best Cost Array: 20 30 25 21 0 15 17 35 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 2 0 6 4 4 5 2 
+Best Cost Array: 20 27 25 21 0 15 17 35 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 2 0 6 4 4 5 2 
+Best Cost Array: 20 27 25 21 0 15 17 35 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 2 0 6 4 4 5 1 
+Best Cost Array: 20 27 25 21 0 15 17 29 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 5
+Father Array: 5 2 0 6 4 4 5 1 
+Best Cost Array: 20 27 25 21 0 15 17 29 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 6
+Father Array: 5 5 5 5 5 5 5 5 
+Best Cost Array: 5 9999 9999 9999 9999 0 2 9999 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 6
+Father Array: 5 5 5 5 5 5 5 5 
+Best Cost Array: 5 9999 9999 9999 9999 0 2 9999 
+Marked Array: 0 0 0 0 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 5 5 6 5 5 5 5 
+Best Cost Array: 5 9999 9999 6 9999 0 2 9999 
+Marked Array: 0 0 0 0 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 5 5 6 5 5 5 5 
+Best Cost Array: 5 9999 9999 6 9999 0 2 9999 
+Marked Array: 1 0 0 0 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 5 6 5 5 5 5 
+Best Cost Array: 5 15 9999 6 9999 0 2 9999 
+Marked Array: 1 0 0 0 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 0 6 5 5 5 5 
+Best Cost Array: 5 15 10 6 9999 0 2 9999 
+Marked Array: 1 0 0 0 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 0 6 0 5 5 5 
+Best Cost Array: 5 15 10 6 35 0 2 9999 
+Marked Array: 1 0 0 0 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 0 6 0 5 5 5 
+Best Cost Array: 5 15 10 6 35 0 2 9999 
+Marked Array: 1 0 0 1 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 0 6 3 5 5 5 
+Best Cost Array: 5 15 10 6 11 0 2 9999 
+Marked Array: 1 0 0 1 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 0 6 3 5 5 5 
+Best Cost Array: 5 15 10 6 11 0 2 9999 
+Marked Array: 1 0 1 1 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 0 0 6 3 5 5 2 
+Best Cost Array: 5 15 10 6 11 0 2 20 
+Marked Array: 1 0 1 1 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 2 0 6 3 5 5 2 
+Best Cost Array: 5 12 10 6 11 0 2 20 
+Marked Array: 1 0 1 1 0 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 2 0 6 3 5 5 2 
+Best Cost Array: 5 12 10 6 11 0 2 20 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 2 0 6 3 5 5 2 
+Best Cost Array: 5 12 10 6 11 0 2 20 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 2 0 6 3 5 5 1 
+Best Cost Array: 5 12 10 6 11 0 2 14 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 6
+Father Array: 5 2 0 6 3 5 5 1 
+Best Cost Array: 5 12 10 6 11 0 2 14 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 7
+Father Array: 6 6 6 6 6 6 6 6 
+Best Cost Array: 9999 9999 9999 4 9999 3 0 9999 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 7
+Father Array: 6 6 6 6 6 6 6 6 
+Best Cost Array: 9999 9999 9999 4 9999 3 0 9999 
+Marked Array: 0 0 0 0 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 6 6 6 6 6 6 6 
+Best Cost Array: 8 9999 9999 4 9999 3 0 9999 
+Marked Array: 0 0 0 0 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 6 6 6 6 6 6 6 
+Best Cost Array: 8 9999 9999 4 9999 3 0 9999 
+Marked Array: 0 0 0 1 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 6 6 6 3 6 6 6 
+Best Cost Array: 8 9999 9999 4 9 3 0 9999 
+Marked Array: 0 0 0 1 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 6 6 6 3 6 6 6 
+Best Cost Array: 8 9999 9999 4 9 3 0 9999 
+Marked Array: 1 0 0 1 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 0 6 6 3 6 6 6 
+Best Cost Array: 8 18 9999 4 9 3 0 9999 
+Marked Array: 1 0 0 1 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 0 0 6 3 6 6 6 
+Best Cost Array: 8 18 13 4 9 3 0 9999 
+Marked Array: 1 0 0 1 0 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 0 0 6 3 6 6 6 
+Best Cost Array: 8 18 13 4 9 3 0 9999 
+Marked Array: 1 0 0 1 1 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 0 0 6 3 6 6 6 
+Best Cost Array: 8 18 13 4 9 3 0 9999 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 0 0 6 3 6 6 2 
+Best Cost Array: 8 18 13 4 9 3 0 23 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 2 0 6 3 6 6 2 
+Best Cost Array: 8 15 13 4 9 3 0 23 
+Marked Array: 1 0 1 1 1 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 2 0 6 3 6 6 2 
+Best Cost Array: 8 15 13 4 9 3 0 23 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 2 0 6 3 6 6 1 
+Best Cost Array: 8 15 13 4 9 3 0 17 
+Marked Array: 1 1 1 1 1 1 1 0 
+
+sourceNode is: 7
+Father Array: 5 2 0 6 3 6 6 1 
+Best Cost Array: 8 15 13 4 9 3 0 17 
+Marked Array: 1 1 1 1 1 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 7 7 7 7 7 7 7 
+Best Cost Array: 6 9999 9999 9999 9999 7 2 0 
+Marked Array: 0 0 0 0 0 0 0 0 
+
+sourceNode is: 8
+Father Array: 7 7 7 7 7 7 7 7 
+Best Cost Array: 6 9999 9999 9999 9999 7 2 0 
+Marked Array: 0 0 0 0 0 0 1 1 
+
+sourceNode is: 8
+Father Array: 7 7 7 6 7 7 7 7 
+Best Cost Array: 6 9999 9999 6 9999 7 2 0 
+Marked Array: 0 0 0 0 0 0 1 1 
+
+sourceNode is: 8
+Father Array: 7 7 7 6 7 6 7 7 
+Best Cost Array: 6 9999 9999 6 9999 5 2 0 
+Marked Array: 0 0 0 0 0 0 1 1 
+
+sourceNode is: 8
+Father Array: 7 7 7 6 7 6 7 7 
+Best Cost Array: 6 9999 9999 6 9999 5 2 0 
+Marked Array: 0 0 0 0 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 7 7 6 7 6 7 7 
+Best Cost Array: 6 9999 9999 6 9999 5 2 0 
+Marked Array: 1 0 0 0 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 7 7 6 0 6 7 7 
+Best Cost Array: 6 9999 9999 6 36 5 2 0 
+Marked Array: 1 0 0 0 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 0 7 6 0 6 7 7 
+Best Cost Array: 6 16 9999 6 36 5 2 0 
+Marked Array: 1 0 0 0 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 0 0 6 0 6 7 7 
+Best Cost Array: 6 16 11 6 36 5 2 0 
+Marked Array: 1 0 0 0 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 0 0 6 0 6 7 7 
+Best Cost Array: 6 16 11 6 36 5 2 0 
+Marked Array: 1 0 0 1 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 0 0 6 3 6 7 7 
+Best Cost Array: 6 16 11 6 11 5 2 0 
+Marked Array: 1 0 0 1 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 0 0 6 3 6 7 7 
+Best Cost Array: 6 16 11 6 11 5 2 0 
+Marked Array: 1 0 1 1 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 2 0 6 3 6 7 7 
+Best Cost Array: 6 13 11 6 11 5 2 0 
+Marked Array: 1 0 1 1 0 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 2 0 6 3 6 7 7 
+Best Cost Array: 6 13 11 6 11 5 2 0 
+Marked Array: 1 0 1 1 1 1 1 1 
+
+sourceNode is: 8
+Father Array: 7 2 0 6 3 6 7 7 
+Best Cost Array: 6 13 11 6 11 5 2 0 
+Marked Array: 1 1 1 1 1 1 1 1 
+
