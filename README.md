@@ -1,5 +1,5 @@
 # dijkstra-algorithm
-Implementation and simulation of dijkstra's algorithm in C++
+Implementation and simulation of dijkstra's algorithm in C++ & Java
 
 Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a directed graph
 
