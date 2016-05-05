@@ -34,6 +34,17 @@ public:
 
     }
 
+    //DESTRUCTOR
+    ~DijkstraSSS() {
+        for(int k = 0; k < numNodes; k++) {
+            delete [] costMatrix[k];
+        }
+        delete [] costMatrix;
+        delete [] fatherAry;
+        delete [] bestCostAry;
+        delete [] markedAry;
+    }
+
     void Dijkstra(int sourceNode) {
 
         //STEP 2// Load arrays with incoming sourceNode
@@ -65,14 +76,33 @@ public:
 
         //STEP 7-8// Print shortest paths from currentNode to sourceNode in reverse
         currentNode = 0;
+        cout<<endl;
         while(currentNode<numNodes) {
             printShortestPath(currentNode);
+
+            //recursive method to print node links
+            cout<<endl<<currentNode+1;
+            printsp(currentNode);
+            cout<<endl;
+
             out_data1<<endl;
             currentNode++;
         }
-
         out_data1<<endl;
     }
+
+        void printsp(int node) {
+
+            if(fatherAry[node]==sourceNode-1) {
+                cout<<" <-- "<<fatherAry[node]+1;
+                return;
+            }
+            else {
+                cout<<" <-- "<<fatherAry[node]+1;
+                return (printsp(fatherAry[node]));
+            }
+
+        }
 
         void printShortestPath(int node) {
             //TEMP INT TO HOLD ORIGINAL VALUE OF fatherAry[node], in order to iterate through all nums
@@ -195,7 +225,8 @@ public:
         int computeCost (int minNode, int currentNode) {
 
             //    - computeCost (minNode, currentNode) method,
-            //it compute the currentNode’s cost ( bestCostArray[minNode] +  cost from minNode to currentNode, in costMatrix)
+            //it compute the currentNode’s cost
+            // ( bestCostArray[minNode] +  cost from minNode to currentNode, in costMatrix)
             return bestCostAry[minNode] + costMatrix[minNode][currentNode];
         }
 
